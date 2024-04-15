@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="topbar">
+      <span class="mob">Mob. 7004525294, 9771999460</span>
+      <span class="email">Email : info@specbitsgroup.com</span>
+    </section>
+    <section id="top">
+      <img
+        class="logo"
+        src="https://specbitsgroup.com/public/assets/images/logos/dark-logo.webp"
+        alt=""
+      />
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </section>
+
+    <img class="car" src="images/car.png" alt="">
+
+    <div><h1 id="home">This is Home Section</h1>
+    
+      
+    
+    </div>
+    <div><h1 id="about">This is About Section</h1></div>
+    <div><h1 id="services">This is Services Section</h1></div>
+    <div><h1 id="contact">This is Contact Section</h1></div>
+
+    <a class="movetotp" href="#top"
+      ><i class="fa-solid fa-circle-chevron-up"></i
+    ></a>
+
+    <button class="enquiry">Quick Enquiry</button>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .car{
+         transform: rotate(180deg);
+        /* transform: rotateX(180deg); */
+        /* transform: rotateY(180deg);  */
+
+      }
+
+      .enquiry{
+        rotate: 270deg;
+        background:blue;
+        color: #fff;  
+        border: none;
+        font-size: 18px;
+        padding: 5px 12px;
+        border-radius: 12px;
+        position: fixed;
+        top: 50%;
+        right: -52px;
+      }
+
+      div {
+        height: 100vh;
+        background-color: red;
+        margin-top: 30px;
+        font-size: 70px;
+        color: white;
+      }
+
+      h1 {
+        padding: 100px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .movetotp {
+        padding: 8px 10px;
+        font-size: 25px;
+        background-color: red;
+        color: white;
+        border: 1px solid red;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        border-radius: 50%;
+        display: inline-block;
+      }
+
+      li a {
+        color: black;
+        font-family: "Roboto Mono", monospace;
+        padding: 5px 12px;
+        border-radius:  6px;
+      }
+
+      li a.active{
+        color: white;
+        background-color: red;
+      }
+
+      li a:hover{
+        color: white;
+        background-color: red;
+      }
+
+      li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 20px;
+      }
+
+      #top {
+        position: sticky;
+        top: 0;
+        height: 85px;
+        background-color: white;
+        width: 100%;
+      }
+
+      #home {
+        margin-top: 70px;
+      }
+
+      #topbar {
+        padding: 10px;
+        background: #0329e5;
+        color: white;
+        font-size: 20px;
+      }
+
+      #topbar .mob {
+        display: inline-block;
+        width: 50%;
+        margin-left: 50px;
+      }
+
+      #topbar .email {
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+      }
+
+      ul {
+        position: absolute;
+        right: 50px;
+        top: 30px;
+      }
+
+      .logo {
+        width: 200px;
+        margin: 20px 50px;
+      }
+    </style>
+  </body>
+</html>
