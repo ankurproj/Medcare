@@ -1,0 +1,151 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football Jumping Effect</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      div {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: 10px;
+        position: relative;
+        float: left;
+        /* Move to the center of the screen */
+        transform: translate(260px, 60px);
+        animation-name: jumping;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+
+      div:nth-of-type(1) {
+        background-color: #ff6347;
+        animation-timing-function: ease;
+      }
+      div:nth-of-type(2) {
+        background-color: royalblue;
+        animation-timing-function: linear;
+      }
+      div:nth-of-type(3) {
+        background-color: limegreen;
+        animation-timing-function: ease-out;
+      }
+      div:nth-of-type(4) {
+        background-color: bisque;
+        animation-timing-function: ease-in-out;
+      }
+
+      @keyframes jumping {
+        from {
+          top: 0px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5),
+            inset 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        to {
+          top: 400px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5),
+            inset 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+
+    <div></div>
+
+    <div></div>
+
+    <div></div>
+  </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progress Bar Using HTML and CSS</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+      }
+      div {
+        width: 50%;
+        height: 30px;
+        margin-top: 60px;
+        margin-left: 250px;
+        margin-right: 20px;
+        background-color: #ccc;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        box-shadow: 0 0 5px #ccc;
+      }
+      .progress {
+        height: 100%;
+        display: block;
+        background-color: #96ee5c;
+        border-radius: 20px;
+        animation: progressbar 2s .5s linear;
+      }
+
+      .first {
+        width: 0%;
+      }
+      .second {
+        width: 30%;
+      }
+      .third {
+        width: 40%;
+      }
+      .fourth {
+        width: 50%;
+      }
+      .fifth {
+        width: 60%;
+      }
+      .sixth {
+        width: 70%;
+      }
+      .seven {
+        width: 80%;
+      }
+      .eight {
+        width: 90%;
+      }
+      .nine {
+        width: 100%;
+      }
+      @keyframes progressbar {
+        from {
+          width: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div><span class="progress first"></span></div>
+    <div><span class="progress second"></span></div>
+    <div><span class="progress third"></span></div>
+    <div><span class="progress fourth"></span></div>
+    <div><span class="progress fifth"></span></div>
+    <div><span class="progress sixth"></span></div>
+    <div><span class="progress seven"></span></div>
+    <div><span class="progress eight"></span></div>
+    <div><span class="progress nine"></span></div>
+  </body>
+</html>
