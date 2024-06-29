@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilt Effect Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.card-container {
+    perspective: 1000px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+    transform-style: preserve-3d;
+}
+
+    </style>
+    <div class="card-container">
+        <div class="card">
+            <h2>He!He!!!</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        document.querySelector('.card').addEventListener('mousemove', function(e) {
+    const card = this;
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left; // x position within the element.
+    const y = e.clientY - rect.top;  // y position within the element.
+
+    // Calculate the rotation values
+    const rotateX = ((y / card.offsetHeight) - 0.5) * 75; // 50 is the max rotation in degrees
+    const rotateY = ((x / card.offsetWidth) - 0.5) * -75;
+
+    // Apply the rotation
+    card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+});
+
+document.querySelector('.card').addEventListener('mouseleave', function(e) {
+    // Reset rotation when mouse leaves the card
+    this.style.transform = 'rotateX(0) rotateY(0)';
+});
+
+    </script>
+</body>
+</html>

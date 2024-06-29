@@ -1,251 +1,538 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="Resources/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-    <!-- //owl carausel -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- owl carausel -->
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <div class="row">
-          <img
-            src="Resources/img/logo/main logo.webp"
-            alt="medcare-logo"
-            class="logo"
-          />
-          <ul class="navbar">
-            <li><a class="active-page" href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Treatments</a></li>
-            <li><a href="">Doctors</a></li>
-            <li><a href="">Timetable</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-          <button class="book">
-            <i class="fa-regular fa-calendar" style="color: #ffffff"></i>
-            &nbsp;Book online
-          </button>
-        </div>
-      </nav>
-    </header>
-    <section class="cover" id="first">
-      <div class="block">
-        <div class="cover-text">
-          <h6>Tell us your problem!</h6>
-          <h1>Most trusted health partner for your life.</h1>
-          <button class="black-blue find-doc">
-            <span class="view">Find a doctor</span>
-            <span class="hover-view">Trusted doctor</span>
-          </button>
-          <button class="white-blue vid-call">
-            <i class="fa-solid fa-video fa-sm"></i>
-            Video call
-          </button>
-        </div>
-        <div class="cover-image">
-          <img class="doctor-image" src="Resources/img/doctor.webp" alt="" />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="Resources/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <!-- //owl carausel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- owl carausel -->
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="row">
+        <img src="Resources/img/logo/main logo.webp" alt="medcare-logo" class="logo" />
+        <ul class="navbar">
+          <li><a class="active-page" href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Treatments</a></li>
+          <li><a href="">Doctors</a></li>
+          <li><a href="">Timetable</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <button class="book">
+          <i class="fa-regular fa-calendar" style="color: #ffffff"></i>
+          &nbsp;Book online
+        </button>
       </div>
-      <div class="cover-footer">
-        <div class="i-button">
-          <span class="text">Covid-19 information</span>
-        </div>
-        <div class="slider-text">
-          <!--         
-Get vaccinated as soon as it's your turn and follow guidance on vaccination.
-Clean your hands frequently with alcohol-based hand soap and water.
-Cover your mouth and nose with a bent elbow or tissue when you cough. -->
-        </div>
+    </nav>
+  </header>
+  <section class="cover" id="first">
+    <div class="block">
+      <div class="cover-text">
+        <h6>Tell us your problem!</h6>
+        <h1>Most trusted health partner for your life.</h1>
+        <button class="black-blue find-doc">
+          <span class="view">Find a doctor</span>
+          <span class="hover-view">Trusted doctor</span>
+        </button>
+        <button class="white-blue vid-call">
+          <i class="fa-solid fa-video fa-sm"></i>
+          Video call
+        </button>
       </div>
-    </section>
-    <div class="side-bar">
-      <span>
-        <i class="fa-regular fa-envelope" style="color: #000000"></i> Arrange
-        your appointment &mdash; <a href="">Book appointment</a>
-      </span>
+      <div class="cover-image">
+        <img class="doctor-image" src="Resources/img/doctor.webp" alt="" />
+      </div>
     </div>
-    <div class="icon-circle">
-      <i class="fa-solid fa-heart fa-lg" style="color: #ffffff"></i>
-    </div>
-    <div class="doctor-tag">
-      <img src="Resources/img/logo/security-logo.webp" alt="security" />
-      <h4>Verified doctors</h4>
-      <h4 id="prof-doc">Professional doctor</h4>
-    </div>
-
-    <!-- Second cover page -->
-
-    <section class="cover" id="second">
-      <div class="block">
-        <div>
-          <img class="doctor1-image" src="Resources/img/doctor1.jpg" alt="" />
-          <img class="doctor2-image" src="Resources/img/doctor2.jpg" alt="" />
-          <div class="rotatable-logo">
-            <img
-              src="Resources/img/logo/logo2 part2.webp"
-              alt=""
-              class="rotate"
-            />
-            <img
-              src="Resources/img/logo/logo2 part1.webp"
-              alt=""
-              class="logo-rotate"
-            />
+    <div class="cover-footer">
+      <div class="i-button">
+        <span class="text">Covid-19 information
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</span>
+      </div>
+      <div class="slider-text">
+        <div class="slide owl-carousel">
+          <div>
+            Get vaccinated as soon as it's your turn and follow guidance on
+            vaccination.
+          </div>
+          <div>
+            Clean your hands frequently with alcohol-based hand soap and
+            water.
+          </div>
+          <div>
+            Cover your mouth and nose with a bent elbow or tissue when you
+            cough.
           </div>
         </div>
-        <div class="cover-text bookicon">
-          <h6 class="ab-text">
-            <i
-              class="circle-bg fa-solid fa-book fa-lg"
-              style="color: #098cf1"
-            ></i>
-            &nbsp;About medcare hospital
-          </h6>
-          <h1 class="heading-text">Welcome to our medcare hospital.</h1>
-          <p class="description-text">
-            We value each and every human life placed in our hands and
-            constantly work towards meeting the expectations of our customers
-            and stake holders.
+      </div>
+    </div>
+  </section>
+  <div class="side-bar">
+    <span>
+      <i class="fa-regular fa-envelope" style="color: #000000"></i> Arrange
+      your appointment &mdash; <a href="">Book appointment</a>
+    </span>
+  </div>
+  <div class="icon-circle">
+    <i class="fa-solid fa-heart fa-lg" style="color: #ffffff"></i>
+  </div>
+  <div class="doctor-tag">
+    <img src="Resources/img/logo/security-logo.webp" alt="security" />
+    <h4>Verified doctors</h4>
+    <h4 id="prof-doc">Professional doctor</h4>
+  </div>
+
+  <!-- Second cover page -->
+
+  <section class="cover" id="second">
+    <div class="block">
+      <div>
+        <img class="doctor1-image" src="Resources/img/doctor1.jpg" alt="" />
+        <img class="doctor2-image" src="Resources/img/doctor2.jpg" alt="" />
+        <div class="rotatable-logo">
+          <img src="Resources/img/logo/logo2 part2.webp" alt="" class="rotate" />
+          <img src="Resources/img/logo/logo2 part1.webp" alt="" class="logo-rotate" />
+        </div>
+      </div>
+      <div class="cover-text bookicon">
+        <h6 class="ab-text">
+          <i class="circle-bg fa-solid fa-book fa-lg" style="color: #098cf1"></i>
+          &nbsp;About medcare hospital
+        </h6>
+        <h1 class="heading-text">Welcome to our medcare hospital.</h1>
+        <p class="description-text">
+          We value each and every human life placed in our hands and
+          constantly work towards meeting the expectations of our customers
+          and stake holders.
+        </p>
+        <div class="review">
+          <div class="review-count">
+            <div class="count">722&plus;</div>
+            <div class="star">
+              <i class="fa-solid fa-star fa-xs" style="color: #ffffff"></i>
+              <i class="fa-solid fa-star fa-xs" style="color: #ffffff"></i>
+              <i class="fa-solid fa-star fa-xs" style="color: #ffffff"></i>
+              <i class="fa-solid fa-star fa-xs" style="color: #ffffff"></i>
+              <i class="fa-solid fa-star fa-xs" style="color: #ffffff"></i>
+            </div>
+          </div>
+          <div class="review-text">
+            5 star reviews from our satisfied people.
+          </div>
+        </div>
+        <button class="black-blue about">About hospital</button>
+        <button class="white-blue time-table">
+          <i class="fa-regular fa-calendar" style="color: #1f1e1e"></i>
+          Check timetable
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Third cover -->
+
+  <section class="cover" id="third">
+    <img class="bg-transparent-img" src="Resources/img/design1.svg" alt="" />
+    <div class="card-sl">
+      <div class="cover-text bookicon">
+        <h6 class="ab-text">
+          <i class="circle-bg fa-solid fa-book fa-lg" style="color: #098cf1"></i>
+          &nbsp; Our advance services
+        </h6>
+        <h1 class="heading-text">Our clinical departments.</h1>
+        <p class="description-text">
+          We have various departments like cardiology,General surgery, Blood
+          Test, e.t.c.
+        </p>
+        <button class="black-blue treat-btn">All Treatments</button>
+      </div>
+      <div class="slider-card">
+        <div class="owl-carousel">
+          <div class="sl-card">
+            <div class="round-bg">
+              <img src="Resources/img/p-care.svg" alt="" />
+            </div>
+            <div class="card-details">
+              <p class="header">Primary care</p>
+              <p class="detail">
+                Here, you will get all primary health care taker. You can
+                trust us for better treatment.
+              </p>
+              <button class="header know-btn">
+                <i class="fa-solid fa-circle-plus"></i>
+                Know more
+              </button>
+            </div>
+          </div>
+          <div class="sl-card">
+            <div class="round-bg">
+              <img src="Resources/img/cardiology.svg" alt="" />
+            </div>
+            <div class="card-details">
+              <p class="header">Cardiology</p>
+              <p class="detail">
+                Here, you will get all primary heart related treatments. You
+                can trust us for better treatment.
+              </p>
+              <button class="header know-btn">
+                <i class="fa-solid fa-circle-plus" style="color: #000000"></i>
+                Know more
+              </button>
+            </div>
+          </div>
+          <div class="sl-card">
+            <div class="round-bg">
+              <img src="Resources/img/g-surgery.svg" alt="" />
+            </div>
+            <div class="card-details">
+              <p class="header">General surgery</p>
+              <p class="detail">
+                Here, you will get all kinds of general surgery. You can trust
+                us for better treatment.
+              </p>
+              <button class="header know-btn">
+                <i class="fa-solid fa-circle-plus" style="color: #000000"></i>
+                Know more
+              </button>
+            </div>
+          </div>
+          <div class="sl-card">
+            <div class="round-bg">
+              <img src="Resources/img/blood-test.svg" alt="" />
+            </div>
+            <div class="card-details">
+              <p class="header">Blood test</p>
+              <p class="detail">
+                Here, you can test your blood. You can trust us for better
+                treatment.
+              </p>
+              <button class="header know-btn">
+                <i class="fa-solid fa-circle-plus" style="color: #000000"></i>
+                Know more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="customer">
+      <div class="review-card">
+        <span class="big-txt">4.98</span>
+        <span class="star">
+          <i class="fa-solid fa-star" style="color: #000000"></i>
+          <i class="fa-solid fa-star" style="color: #000000"></i>
+          <i class="fa-solid fa-star" style="color: #000000"></i>
+          <i class="fa-solid fa-star" style="color: #000000"></i>
+          <i class="fa-solid fa-star" style="color: #000000"></i>
+        </span>
+        <div class="sm-txt">2,488 rating.</div>
+      </div>
+      <div class="review-card">
+        <span class="big-txt">98<span class="up">&percnt;</span></span>
+        <div class="sm-txt sec">Genuine positive<br />feedback.</div>
+      </div>
+      <div class="review-card">
+        <span class="big-txt">200<span class="up">&plus;</span></span>
+        <div class="sm-txt sec third">Daily patients<br />consulted.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- fourth section -->
+
+  <section class="cover" id="fourth">
+    <div class="full">
+      <div class="y-tube">
+        <div class="ytube-btn">
+          <iframe width="55" height="38" src="https://www.youtube.com/embed/cfXHhfNy7tU?si=VkW_8jWBq7OiR4qP"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <span class="title">See our virtual tour</span>
+        </div>
+        <img class="doctorgroup-img" src="Resources/img/doctor-group.jpg" alt="" />
+      </div>
+      <div class="cover-text bookicon">
+        <h6 class="ab-text">
+          <i class="circle-bg fa-solid fa-book fa-lg" style="color: #098cf1"></i>
+          &nbsp;Modern technologies
+        </h6>
+        <h1 class="heading-text">We help you get well sooner!</h1>
+        <p class="description-text">
+          We value each and every human life placed in our hands and
+          constantly work towards meeting the expectations of our customers.
+        </p>
+        <button class="black-blue about call">
+          <i class="fa-solid fa-phone-volume" style="color: #fefbfb"></i>
+          +916207389419
+        </button>
+      </div>
+    </div>
+    <span class="quote">
+      <i class="fa-regular fa-face-smile fa-lg" style="color: #4dbfef"></i>
+      We can give you the big smile you've always wanted.
+    </span>
+  </section>
+  <!-- FIFTH SECTION -->
+  <section class="cover" id="fifth">
+    <img class="bg-transparent-img" src="Resources/img/design1.svg" alt="" />
+    <div class="book-doctor">
+      <div class="booking-text">
+        <span>Find the right doctor for you.</span>
+        <img src="Resources/img/yellow curve.svg" alt="" />
+      </div>
+      <div class="book-step">
+        <div class="steps">
+          <div class="round">01</div>
+          <div class="detail">
+            <div class="light-text">Search doctor</div>
+            <div class="dark-text">By Name or Id</div>
+          </div>
+        </div>
+        <div class="steps">
+          <div class="round">02</div>
+          <div class="detail">
+            <div class="light-text">Book schedule</div>
+            <div class="dark-text">Mon&dash;Sat</div>
+          </div>
+        </div>
+        <div class="steps">
+          <div class="round">03</div>
+          <div class="detail">
+            <div class="light-text">Make a payment</div>
+            <div class="dark-text">Online or Offline</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="qual-doctor">
+      <h1>Qualified doctors</h1>
+      <div class="doctor-card">
+        <div class="card">
+          <img src="Resources/img/doc card 1.jpg" alt="" />
+          <div class="rated">
+            <i class="fa-solid fa-star fa-sm" style="color: #000000"></i>
+            4.9
+          </div>
+          <h3>Dr. Shoko mugikura</h3>
+          <p>
+            Specialize in <br /><span class="specs">psychiatry</span> at
+            crafto<br />
+            hospital.
           </p>
-          <div class="review">
-            <div class="review-count">
-              <div class="count">722&plus;</div>
-              <div class="star">
-                <i class="fa-solid fa-star fa-xs" style="color: #ffffff"></i>
-                <i class="fa-solid fa-star fa-xs" style="color: #ffffff"></i>
-                <i class="fa-solid fa-star fa-xs" style="color: #ffffff"></i>
-                <i class="fa-solid fa-star fa-xs" style="color: #ffffff"></i>
-                <i class="fa-solid fa-star fa-xs" style="color: #ffffff"></i>
-              </div>
-            </div>
-            <div class="review-text">
-              5 star reviews from our satisfied people.
-            </div>
+          <div class="smedia-icon">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+            <a href="https://www.dribbble.com/"><i class="fa-brands fa-dribbble fa-lg"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter fa-lg"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-lg"></i></a>
           </div>
-          <button class="black-blue about">About hospital</button>
-          <button class="white-blue time-table">
-            <i class="fa-regular fa-calendar" style="color: #1f1e1e"></i>
-            Check timetable
-          </button>
         </div>
-      </div>
-    </section>
-
-    <!-- Third cover -->
-
-    <section class="cover" id="third">
-      <img class="bg-transparent-img" src="Resources/img/design1.svg" alt="" />
-      <div class="card-sl">
-        <div class="cover-text bookicon">
-          <h6 class="ab-text">
-            <i
-              class="circle-bg fa-solid fa-book fa-lg"
-              style="color: #098cf1"
-            ></i>
-            &nbsp; Our advance services
-          </h6>
-          <h1 class="heading-text">Our clinical departments.</h1>
-          <p class="description-text">
-            We have various departments like cardiology,General surgery, Blood
-            Test, e.t.c.
+        <div class="card">
+          <img src="Resources/img/doc card 2.jpg" alt="" />
+          <div class="rated">
+            <i class="fa-solid fa-star fa-sm" style="color: #000000"></i>
+            4.7
+          </div>
+          <h3>Dr. Herman miller</h3>
+          <p>
+            Specialize in <br /><span class="specs">cancer</span> at crafto<br />
+            hospital.
           </p>
-          <button class="black-blue treat-btn">All Treatments</button>
+          <div class="smedia-icon">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+            <a href="https://www.dribbble.com/"><i class="fa-brands fa-dribbble fa-lg"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter fa-lg"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-lg"></i></a>
+          </div>
         </div>
-        <div class="slider-card">
-          <div class="owl-carousel">
-            <div class="sl-card">
-              <div class="round-bg">
-                <img src="Resources/img/p-care.svg" alt="">
-              </div>
-            </div>
-
-            <div class="sl-card"></div>
-            <div class="sl-card"></div>
-            <div class="sl-card"></div>
-            <div class="sl-card"></div>
+        <div class="card">
+          <img src="Resources/img/doc card 3.jpg" alt="" />
+          <div class="rated">
+            <i class="fa-solid fa-star fa-sm" style="color: #000000"></i>
+            5.0
+          </div>
+          <h3>Dr. Leonel mooney</h3>
+          <p>
+            Specialize in <br /><span class="specs">pediatrics</span> at
+            crafto<br />
+            hospital.
+          </p>
+          <div class="smedia-icon">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+            <a href="https://www.dribbble.com/"><i class="fa-brands fa-dribbble fa-lg"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter fa-lg"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-lg"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Resources/img/doc card 1.jpg" alt="" />
+          <div class="rated">
+            <i class="fa-solid fa-star fa-sm" style="color: #000000"></i>
+            5.0
+          </div>
+          <h3>Dr. Matthew taylor</h3>
+          <p>
+            Specialize in <br /><span class="specs">psychiatry</span> at
+            crafto<br />
+            hospital.
+          </p>
+          <div class="smedia-icon">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+            <a href="https://www.dribbble.com/"><i class="fa-brands fa-dribbble fa-lg"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter fa-lg"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-lg"></i></a>
           </div>
         </div>
       </div>
+    </div>
+    <span class="quote">
+      <span class="trust">TRUST</span>
+      Genuine 10000+ people trusting medcare hospital treatment.
+    </span>
+  </section>
 
-    <!-- //owlcarousel -->
-    <!-- <script>
+  <!-- SIXTH SECTION  -->
+  <section class="cover" id="sixth">
+    <img class="bg-transparent-img" src="Resources/img/life-saver.png" alt="" />
+    <div class="card-sl">
+      <div class="cover-text bookicon appoint">
+        <h1 class="heading-text">Request an appointment.</h1>
+        <p class="description-text">
+          Your information will be forwarded to a <br />scheduling specialist
+          who will contact <br />
+          you.
+        </p>
+        <div class="call-doctor">
+          <img class="phone" src="Resources/img/call docor.webp" alt="" />
+          <div class="txt">
+            <div class="sm-txt">For urgent matters</div>
+            <div class="lrg-txt">+916207389419</div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-card form">
+        <form action="">
+          <table>
+            <tr>
+              <td>
+                <input type="text" placeholder="Patient's full name*" required />
+              </td>
+              <td>
+                <select name="select doctor" id="sel-doctor">
+                  <option value="asd">Select doctor</option>
+                  <option value="asd">Pediatrician- Dr. Bryan Jonhson</option>
+                  <option value="asd">Cardiology - Dr. Jemmy watson</option>
+                  <option value="asd">Neurology - Dr. Jeremy dupont</option>
+                  <option value="asd">Orthopedics - Dr. Evan Thomson</option>
+                  <option value="asd">
+                    Optometrists - Dr. Shoko mugikura
+                  </option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><input type="email" placeholder="Patient's email*" /></td>
+              <td rowspan="2">
+                <textarea cols="27" rows="4" name="message" id="message" placeholder="Your message"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+    <div class="customer"></div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+
+  <div class="footer-nav home-footer-nav">
+    <div class="row">
+      <img src="Resources/img/logo/footer nav logo.webp" alt="medcare-logo" class="logo" />
+      <ul class="nav-li">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Treatments</a></li>
+        <li><a href="">Doctors</a></li>
+        <li><a href="">Timetable</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+      <div class="icon">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+        <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter fa-lg"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-lg"></i></a>
+        <a href="https://www.dribbble.com/"><i class="fa-brands fa-dribbble fa-lg"></i></a>
+      </div>
+      <img class="footer-bg" src="Resources/img/footer nav bg.svg" alt="">
+    </div>
+
+  <!-- //owlcarousel -->
+  <!-- <script>
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel();
       });
     </script> -->
-    
-    <!-- <script>
-      
-    </script> -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
 
-    <script>
-      var owl = $(".owl-carousel");
-      owl.owlCarousel({
-        items: 2.2,
-        loop: true,
-        margin: 10,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true,
-      });
-      $(".play").on("click", function () {
-        owl.trigger("play.owl.autoplay", [1000]);
-      });
-      $(".stop").on("click", function () {
-        owl.trigger("stop.owl.autoplay");
-      });
-//       $('.owl-carousel').owlCarousel({
-//     loop:true,
-//     margin:10,
-//     nav:true,
-//     responsive:{
-//         0:{
-//             items:1
-//         },
-//         600:{
-//             items:3
-//         },
-//         1000:{
-//             items:5
-//         }
-//     }
-// })
-    </script>
-    <!-- //owlcarousel -->
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    var owl = $(".slide");
+    owl.owlCarousel({
+      items: 1,
+      loop: true,
+      margin: 100,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: false,
+    });
+    $(".play").on("click", function () {
+      owl.trigger("play.owl.autoplay", [1000]);
+    });
+    $(".stop").on("click", function () {
+      owl.trigger("stop.owl.autoplay");
+    });
+  </script>
+
+  <script>
+    var owl = $(".owl-carousel");
+    owl.owlCarousel({
+      items: 2.2,
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+    });
+    $(".play").on("click", function () {
+      owl.trigger("play.owl.autoplay", [1000]);
+    });
+    $(".stop").on("click", function () {
+      owl.trigger("stop.owl.autoplay");
+    });
+  </script>
+
+  <!-- //owlcarousel -->
+</body>
+
 </html>
